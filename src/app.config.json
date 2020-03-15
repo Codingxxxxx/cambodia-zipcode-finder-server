@@ -1,0 +1,12 @@
+{
+   "activeMode": "dev",
+   "dev": {
+      "db": {
+         "host": "localhost",
+         "dbName": "zipcode",
+         "port": 5432,
+         "user": "postgres",
+         "password": "postgres"
+      }
+   }
+}
