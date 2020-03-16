@@ -8,5 +8,6 @@
          "user": "postgres",
          "password": "postgres"
       }
-   }
+   },
+   "secretKey": "noideawhatimdoingnow:)"
 }
