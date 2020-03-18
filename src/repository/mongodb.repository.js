@@ -13,14 +13,8 @@ const pool = new Pool((() => {
          max: 20
       }
    } else if (activeMode === 'prod') {
-      const {user, password, port, host, dbName} = prod.db;
       return {
-         user: user,
-         host: host,
-         database: dbName,
-         password: password,
-         port: port,
-         max: 20
+         connectionString: process.env.DATABASE_URL
       }
    }
 })());
