@@ -7,4 +7,4 @@ server.use(cors());
 server.use(bodyParser.urlencoded({extended: true}));
 server.use(bodyParser.json());
 server.use(apiController);
-server.listen(3001);
+server.listen(process.env.PORT);
